@@ -28,7 +28,6 @@ jobs:
         cache-dependency-path: client/package-lock.json
     - run: npm install
     - run: npm ci
-    - run: npm run build --if-present
     - run: npm test
     - uses: actions/checkout@v4
     - name: Login to Docker Hub
