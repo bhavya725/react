@@ -39,4 +39,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: bhavya1210/dummy_image:latest
+        tags: bhavyapandey1210/dummy_image:latest
